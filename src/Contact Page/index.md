@@ -3,7 +3,13 @@ layout: base.njk
 title: Contact
 ---
 <style>
-  
+  @font-face {
+    font-family: 'Nunito';
+    font-weight: 400;
+    src: url('assets/fonts/nunito-variablefont_wght-webfont.woff2') format('woff2'),
+        url('assets/fonts/nunito-variablefont_wght-webfont.woff') format('woff');
+
+  }
    body {
       font-family: "Nunito", sans-serif;
       background-color:#7da0b6;
@@ -21,17 +27,30 @@ title: Contact
     margin: 0 auto;
     font-family: "Nunito", serif;
     color: #333;
+    padding: 1.3rem;
+
+    
 
   }
   h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1.75rem;
     font-weight: 500;
     color: #000000;
     margin-bottom: 1.5em;
     text-align: center; 
+    padding: 1rem;
   }
 
+    h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1.5em;
+    text-align: center; 
+     padding-top: 1.8rem;
+  }
   
   input,
   textarea {
@@ -59,10 +78,12 @@ title: Contact
   button[type="submit"] {
     font-size: 1rem;
     padding: 1em;
-    background-color: #005555;E;
+    background-color: #005555;
     color: #ffff;
     width: 100%;
   }
+
+  
 
  
 
@@ -89,8 +110,31 @@ title: Contact
     <input type="number" id="number" name="number" required>
   </p>
   <p>
- 
     <button type="submit">Send</button>
-  
+  </p>
+</form>
+
+<h3> Get in Contact With Us</h3>
+
+<form name="contact" netlify>
   <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+  </p>
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+  </p>
+ <p>
+    <label for="number">Phone Number:</label>
+    <input type="number" id="number" name="number" required>
+  </p>
+  <p>
+    <label for="message">Additonal Comments:</label>
+    <textarea id="message" name="message" ></textarea>
+  </p>
+  <p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
 </form>

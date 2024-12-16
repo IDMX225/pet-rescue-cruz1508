@@ -10,12 +10,12 @@ layout: 'base.njk'
       <p>Our mission is to provide a safe, loving environment for every dog, cat, and small animal that comes through our doors. We work hard to ensure that each animal receives the care and attention they deserve, from medical treatment and training to love and socialization, so they can thrive in their forever homes..</p>
       <p>Below you can find a dog to adopt, or contact us for more information </p>
       <div class="flex-group">
-        <a href="#featured-articles" class="btn btn--primary">Adopt a Dog Today </a>
-        <a href="./Adopt Page" class="btn btn--neutral">Contact Us</a>
+        <a href="#featured-articles" class="btn btn--primary"> Needed Supplies  </a>
+        <a href="./Adopt Page" class="btn btn--neutral"> Adopt a Dog!</a>
       </div>
     </div>
     <div>
-      <img src="https://res.cloudinary.com/doitzffd6/image/upload/v1734314610/roxy_cdsmz2.jpg" alt="Roxy a small morkie" class="hero__image">
+      <img src="https://res.cloudinary.com/doitzffd6/image/upload/v1734314610/roxy_cdsmz2.jpg" alt="Roxy a small morkie " class="hero__image">
     </div>
   </div>
 </section>
@@ -24,6 +24,30 @@ layout: 'base.njk'
   <div class="container flow">
     <h2 class="section-title text-center "></h2>
     <ul role="list" class="articles__list flow">
+
+    <h1>Animal Shelter Supply List</h1>
+
+  <div class="category">General Shelter Supplies</div>
+  <ul>
+    <li>Canned Dog Food</li>
+    <li>Bottled Water</li>
+    <li>Food Storage Containers</li>
+    <li>Disinfectant/cleaning solution (pet-safe)</li>
+    <li>Paper towels</li>
+    <li>Trash bags (various sizes)</li>
+    <li>Mop and bucket</li>
+    <li>Brooms and dustpans</li>
+    <li>Sponges and scrub brushes</li>
+    <li>Laundry detergent (for pet bedding, towels)</li>
+    <li>Floor cleaner (non-toxic)</li>
+    <li>Printer paper</li>
+    <li>Pens, markers, and highlighters</li>
+    <li>Folders and binders for animal records</li>
+    <li>Post-it notes and sticky labels</li>
+    <li>Scissors, tape, and staplers</li>
+  </ul>
+
+ 
       {%- for post in collections.featured | reverse -%}
       {% include 'article-snippet.njk' %}
       {%- endfor -%}
