@@ -41,7 +41,7 @@ layout: "base.njk"
     }
     .card img {
       width: 100%;
-      height: 200px;
+      height: 230px;
       align-items: center;
       object-fit: cover;
       border-radius: 12px;

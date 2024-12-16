@@ -85,6 +85,8 @@ title: Contact
 
   
 
+  
+
  
 
   @media (max-width: 800px) {
@@ -114,7 +116,7 @@ title: Contact
   </p>
 </form>
 
-<h3> Get in Contact With Us</h3>
+<h3> Volunteer for us </h3>
 
 <form name="contact" netlify>
   <p>
