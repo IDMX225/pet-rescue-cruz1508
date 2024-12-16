@@ -6,8 +6,8 @@ title: Contact
   @font-face {
     font-family: 'Nunito';
     font-weight: 400;
-    src: url('assets/fonts/nunito-variablefont_wght-webfont.woff2') format('woff2'),
-        url('assets/fonts/nunito-variablefont_wght-webfont.woff') format('woff');
+    src: url('/fonts/nunito-variablefont_wght-webfont.woff2') format('woff2'),
+       
 
   }
    body {

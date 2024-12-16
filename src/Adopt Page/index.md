@@ -3,8 +3,16 @@ title: "Dogs for Adoption"
 layout: "base.njk"
 ---
 
-
+ 
   <style>
+
+     @font-face {
+    font-family: 'Nunito';
+    font-weight: 800;
+    src: url('/fonts/nunito-variablefont_wght-webfont.woff2') format('woff2'),
+       
+
+  }
     body {
       font-family: "Nunito", sans-serif;
       background-color:#7da0b6;
@@ -12,6 +20,7 @@ layout: "base.njk"
       padding: 0;
       display: flex;
       flex-direction: column;
+      color: #fff;
 
     }
 
@@ -26,7 +35,7 @@ layout: "base.njk"
     }
 
      h1 {
-    text-align: center; /* Center the h1 text */
+    text-align: center; 
   }
     
     .card {
@@ -55,9 +64,10 @@ layout: "base.njk"
     }
     .card p {
       font-size: 1rem;
-      color: #000;
-      line-height: 1.;
+      color: #fff;
+      line-height: 1.4;
       align-items: center;
+      
     }
   </style>
 </head>
