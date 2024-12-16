@@ -109,7 +109,7 @@ title: Contact
   </p>
  <p>
     <label for="number">Phone Number:</label>
-    <input type="number" id="number" name="number" required>
+    <input type="number" id="number" name="phone number" required>
   </p>
   <p>
     <button type="submit">Send</button>
@@ -129,11 +129,11 @@ title: Contact
   </p>
  <p>
     <label for="number">Phone Number:</label>
-    <input type="number" id="number" name="number" required>
+    <input type="number" id="number" name="phone number" required>
   </p>
   <p>
     <label for="message">Additonal Comments:</label>
-    <textarea id="message" name="message" ></textarea>
+    <textarea id="message" name="additional comments" required ></textarea>
   </p>
   <p>
   <p>
